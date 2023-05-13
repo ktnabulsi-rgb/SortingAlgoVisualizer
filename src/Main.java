@@ -17,6 +17,16 @@ public class Main {
         }
         System.out.println("Have a good day!");
     }
+    public int[] makeArray(){
+        int length =(int) (Math.random() * (100 - 50 + 1)) + 50;
+        int rand;
+        int[] arr = new int[length];
+        for(int i = 0; i < arr.length; i++){
+            rand = (int) (Math.random() * (101));
+            arr[i] = rand;
+        }
+        return arr;
+    }
 
     /* Prints the array */
     public void printArray(int[] arr) {
@@ -26,5 +36,4 @@ public class Main {
             }
             System.out.println();
     }
-    
 }
