@@ -1,5 +1,5 @@
 public class MergeSort {
-    public static void mergeSort(int[] array) {
+    public void mergeSort(int[] array) {
         if (array.length < 2) {
             return;
         }

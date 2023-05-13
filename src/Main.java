@@ -1,6 +1,9 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
+        int[] arr = makeArray();
+        MergeSort ms = new MergeSort();
+        BubbleSort bs = new BubbleSort();
         Scanner input = new Scanner(System.in);
         while(true){
             System.out.println("Press the corresponding number to see the visualization of the selected sorting algorithm. \n1.Merge Sort\n2.Bubble Sort\n0.Exit");
@@ -9,15 +12,15 @@ public class Main {
                 break;
             }
             else if(selection == 1){
-                //Run merge sort
+                ms.mergeSort(arr);
             }
             else if(selection == 2){
-                //Run bubble sort
+                bs.bubbleSort(arr);
             }
         }
         System.out.println("Have a good day!");
     }
-    public int[] makeArray(){
+    public static int[] makeArray(){
         int length =(int) (Math.random() * (100 - 50 + 1)) + 50;
         int rand;
         int[] arr = new int[length];
