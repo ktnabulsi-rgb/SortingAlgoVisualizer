@@ -34,9 +34,15 @@ public class Main {
     /* Prints the array */
     public void printArray(int[] arr) {
             int n = arr.length;
-            for (int i = 0; i < n; ++i) {
-                System.out.print(arr[i] + " ");
+            for (int i = 0; i < n; i++) {
+                for(int starCtr = 0; starCtr < arr[i]; starCtr++) {
+                    System.out.println("*");
+                }
+                //System.out.print(arr[i] + " ");
             }
+            //find highest index in array
+
+
             System.out.println();
     }
 }

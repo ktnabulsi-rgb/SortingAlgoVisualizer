@@ -20,7 +20,8 @@ public class MergeSort {
         while (i < left.length && j < right.length) {
             if (left[i] <= right[j]) {
                 array[k++] = left[i++];
-            } else {
+            }
+            else {
                 array[k++] = right[j++];
             }
         }
