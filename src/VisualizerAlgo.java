@@ -13,18 +13,16 @@ public class VisualizerAlgo {
         }
 
         fillStars(gridArray);
-        print2DArray(gridArray);
-
+        print2DArrayGrid(gridArray);
     }
 
 
     public static String[][] fillStars(String[][] gridArray) {
         for (int r = 0; r < gridArray.length; r++) {
             for (int c = 0; c < gridArray[r].length; c++) {
-                if(gridArray[r][c] == null) {
+                if (gridArray[r][c] == null) {
                     gridArray[r][c] = "*";
-                }
-                else {
+                } else {
                     gridArray[r][c] = " ";
                 }
 
@@ -32,6 +30,7 @@ public class VisualizerAlgo {
         }
         return gridArray;
     }
+
     public static int findLargestNumber(int[] array) {
         if (array == null || array.length == 0) {
             throw new IllegalArgumentException("Array is empty or null.");
@@ -45,44 +44,35 @@ public class VisualizerAlgo {
         }
         return largestNumber;
     }
-    public static void print2DArray(String[][] gridArray) {
-        for (int r = 0; r < gridArray.length; r++) {
-            for (int c = 0; c < gridArray[r].length; c++) {
-                System.out.print(gridArray[r][c]);
-                System.out.println();
-            }
-        }
-    }
-    public static void printGen(String[][] gridArray) {
-//        System.out.print(" " + " " + " ");
-//
-//        for(int c = 1; c <= 20; c++) {
-//
-//            System.out.print(c % 10);
-//        }
-        System.out.println();
 
-        for (int r = 1; r <= gridArray.length - 2; r++)
-        {
+    public static void print2DArrayGrid(String[][] array) {
+        int rows = array.length;
+        int columns = array[0].length;
 
-            System.out.printf("%-3s", r);
+        // Determine the maximum length of strings in the array
+        int maxLength = getMaxStringLength(array);
 
-            for (int c = 1; c < gridArray[r].length - 1; c++)
-            {
-
-                if (gridArray[r][c] == null) {
-                    System.out.print("*");
-                }
-                else {
-                    System.out.print(" ");
-                }
-
+        // Print the array in a grid format
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                System.out.printf("%-" + (maxLength + 1) + "s", array[i][j]);
             }
             System.out.println();
         }
-        System.out.println();
-
     }
 
-
+    public static int getMaxStringLength(String[][] array) {
+        int maxLength = 0;
+        for (String[] row : array) {
+            for (String element : row) {
+                if (element.length() > maxLength) {
+                    maxLength = element.length();
+                }
+            }
+        }
+        return maxLength;
+    }
 }
+
+
+
