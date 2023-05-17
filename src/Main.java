@@ -19,6 +19,24 @@ public class Main {
             }
         }
         System.out.println("Have a good day!");
+
+
+        //tester:
+        VisualizerAlgo va = new VisualizerAlgo();
+
+        int[] array = {7, 5, 2, 10, 9};
+        int largestNumberInArray = VisualizerAlgo.findLargestNumber(array);
+        String[][] gridArray = new String[largestNumberInArray][array.length];
+
+        for (int c = 0; c < gridArray[0].length; c++) {
+            int numberOfSpaces = largestNumberInArray - array[c];
+            for (int r = 0; r < numberOfSpaces; r++) {
+                gridArray[r][c] = "5"; //5 values mean space in this case
+            }
+        }
+
+        VisualizerAlgo.fillStars(gridArray);
+        VisualizerAlgo.print2DArrayGrid(gridArray);
     }
     public static int[] makeArray(){
         int length =(int) (Math.random() * (100 - 50 + 1)) + 50;

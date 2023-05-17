@@ -1,21 +1,4 @@
 public class VisualizerAlgo {
-    public static void main(String[] args) {
-
-        int[] array = {7, 5, 2, 10, 9};
-        int largestNumberInArray = findLargestNumber(array);
-        String[][] gridArray = new String[largestNumberInArray][array.length];
-
-        for (int c = 0; c < gridArray[0].length; c++) {
-            int numberOfSpaces = largestNumberInArray - array[c];
-            for (int r = 0; r < numberOfSpaces; r++) {
-                gridArray[r][c] = "5"; //5 values mean space in this case
-            }
-        }
-
-        fillStars(gridArray);
-        print2DArrayGrid(gridArray);
-    }
-
 
     public static String[][] fillStars(String[][] gridArray) {
         for (int r = 0; r < gridArray.length; r++) {

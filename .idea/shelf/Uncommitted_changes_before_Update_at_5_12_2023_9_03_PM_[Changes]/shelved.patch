@@ -1,0 +1,18 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Scanner;\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        Scanner input = new Scanner(System.in);\r\n        while(true){\r\n            System.out.println(\"Press the corresponding number to see the visualization of the selected sorting algorithm. \\n1.Merge Sort\\n2.Bubble Sort\\n0.Exit\");\r\n            int selection = input.nextInt();\r\n            if(selection == 0){\r\n                break;\r\n            }\r\n            else if(selection == 1){\r\n                //Run merge sort\r\n            }\r\n            else if(selection == 2){\r\n                //Run bubble sort\r\n            }\r\n        }\r\n        System.out.println(\"Have a good day!\");\r\n    }\r\n    public int[] makeArray(){\r\n        int length =(int) (Math.random() * (100 - 50 + 1)) + 50;\r\n        int rand;\r\n        int[] arr = new int[length];\r\n        for(int i = 0; i < arr.length; i++){\r\n            rand = (int) (Math.random() * (101));\r\n            arr[i] = rand;\r\n        }\r\n        return arr;\r\n    }\r\n\r\n    /* Prints the array */\r\n    public void printArray(int[] arr) {\r\n            int n = arr.length;\r\n            for (int i = 0; i < n; ++i) {\r\n                System.out.print(arr[i] + \" \");\r\n            }\r\n            System.out.println();\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision e4ee41aecc721bc82c03a061305d41166f730f73)
++++ b/src/Main.java	(date 1683950241746)
+@@ -1,6 +1,7 @@
+ import java.util.Scanner;
+ public class Main {
+     public static void main(String[] args) {
++        MergeSort ms = new MergeSort();
+         Scanner input = new Scanner(System.in);
+         while(true){
+             System.out.println("Press the corresponding number to see the visualization of the selected sorting algorithm. \n1.Merge Sort\n2.Bubble Sort\n0.Exit");
