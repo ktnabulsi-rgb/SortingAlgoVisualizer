@@ -9,6 +9,7 @@ public class Main {
             System.out.println("Press the corresponding number to see the visualization of the selected sorting algorithm. \n1.Merge Sort\n2.Bubble Sort\n0.Exit");
             System.out.println("Here is the randomly generated array that will be sorted: ");
             printArray(arr);
+            System.out.println();
             int selection = input.nextInt();
             if(selection == 0){
                 break;

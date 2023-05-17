@@ -30,7 +30,6 @@ public class VisualizerAlgo {
     }
 
     public static void print2DArrayGrid(String[][] array) {
-        int rows = array.length;
         int columns = array[0].length;
         //long milliseconds = (long)0.75;
 
@@ -38,14 +37,14 @@ public class VisualizerAlgo {
         int maxLength = getMaxStringLength(array);
 
         // Print the array in a grid format
-        for (int i = 0; i < rows; i++) {
+        for (String[] row : array) {
             for (int j = 0; j < columns; j++) {
 //                try {
 //                    Thread.sleep(milliseconds); // Pause the thread for 2000 milliseconds (2 seconds)
 //                } catch (InterruptedException e) {
 //                    e.printStackTrace();
 //                }
-                System.out.printf("%-" + (maxLength + 1) + "s", array[i][j]);
+                System.out.printf("%-" + (maxLength + 1) + "s", row[j]);
             }
             System.out.println();
         }
@@ -76,8 +75,9 @@ public class VisualizerAlgo {
         }
         VisualizerAlgo.fillStars(gridArray);
         VisualizerAlgo.print2DArrayGrid(gridArray);
-        iterationCtr++;
 
+        iterationCtr++;
+        //write dashes to text file
         for(int i = 0; i < dashLength; i++) {
             System.out.print("-");
         }
