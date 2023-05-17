@@ -55,6 +55,20 @@ public class VisualizerAlgo {
         }
         return maxLength;
     }
+
+    public static void printVis(int[] array){
+        int largestNumberInArray = VisualizerAlgo.findLargestNumber(array);
+        String[][] gridArray = new String[largestNumberInArray][array.length];
+
+        for (int c = 0; c < gridArray[0].length; c++) {
+            int numberOfSpaces = largestNumberInArray - array[c];
+            for (int r = 0; r < numberOfSpaces; r++) {
+                gridArray[r][c] = "5"; //5 values mean space in this case
+            }
+        }
+        VisualizerAlgo.fillStars(gridArray);
+        VisualizerAlgo.print2DArrayGrid(gridArray);
+    }
 }
 
 
