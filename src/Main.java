@@ -7,15 +7,19 @@ public class Main {
         Scanner input = new Scanner(System.in);
         while(true){
             System.out.println("Press the corresponding number to see the visualization of the selected sorting algorithm. \n1.Merge Sort\n2.Bubble Sort\n0.Exit");
+            System.out.println("Here is the randomly generated array that will be sorted: ");
+            printArray(arr);
             int selection = input.nextInt();
             if(selection == 0){
                 break;
             }
             else if(selection == 1){
                 ms.mergeSort(arr);
+                System.out.println("This took " + VisualizerAlgo.getIterationCtr() + " iterations to sort successfully");
             }
             else if(selection == 2){
                 bs.bubbleSort(arr);
+                System.out.println("This took " + VisualizerAlgo.getIterationCtr() + " iterations to sort successfully");
             }
         }
         System.out.println("Have a good day!");
@@ -33,17 +37,12 @@ public class Main {
     }
 
     /* Prints the array */
-    public void printArray(int[] arr) {
-            int n = arr.length;
-            for (int i = 0; i < n; i++) {
-                for(int starCtr = 0; starCtr < arr[i]; starCtr++) {
-                    System.out.println("*");
-                }
-                //System.out.print(arr[i] + " ");
+    public static void printArray(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]);
+            if (i < arr.length - 1) {
+                System.out.print(", ");
             }
-            //find highest index in array
-
-
-            System.out.println();
+        }
     }
 }
