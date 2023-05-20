@@ -1,0 +1,272 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_9_03_PM_[Changes]1/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_9_03_PM_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_9_03_PM_[Changes]1/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_9_03_PM_[Changes]1/shelved.patch	(revision 3012fb6658e404876debdd1a1e3baca4862bd682)
++++ /dev/null	(revision 3012fb6658e404876debdd1a1e3baca4862bd682)
+@@ -1,56 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e6b90509-7a35-4228-91b5-7da6b2d7f7dc\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2PikiaykVCZ8Zq6sBUl5Hxgf7eO\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"ToolWindowMessages.ShowToolbar\": \"false\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e6b90509-7a35-4228-91b5-7da6b2d7f7dc\" name=\"Changes\" comment=\"\" />\r\n      <created>1683947419093</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1683947419093</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Update\">\r\n      <created>1683949558894</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683949558894</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Update\">\r\n      <created>1683949740172</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683949740172</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Update\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Update\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision e4ee41aecc721bc82c03a061305d41166f730f73)
+-+++ b/.idea/workspace.xml	(date 1683950242002)
+-@@ -4,9 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="e6b90509-7a35-4228-91b5-7da6b2d7f7dc" name="Changes" comment="">
+--      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+--    </list>
+-+    <list default="true" id="e6b90509-7a35-4228-91b5-7da6b2d7f7dc" name="Changes" comment="" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -21,13 +19,12 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "RunOnceActivity.OpenProjectViewOnStart": "true",
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "ToolWindowMessages.ShowToolbar": "false"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+-     <task active="true" id="Default" summary="Default task">
+-@@ -44,14 +41,7 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1683949558894</updated>
+-     </task>
+--    <task id="LOCAL-00002" summary="Update">
+--      <created>1683949740172</created>
+--      <option name="number" value="00002" />
+--      <option name="presentableId" value="LOCAL-00002" />
+--      <option name="project" value="LOCAL" />
+--      <updated>1683949740172</updated>
+--    </task>
+--    <option name="localTasksCounter" value="3" />
+-+    <option name="localTasksCounter" value="2" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_8_57_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_8_57_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_8_57_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_8_57_PM_[Changes]/shelved.patch	(revision 3012fb6658e404876debdd1a1e3baca4862bd682)
++++ /dev/null	(revision 3012fb6658e404876debdd1a1e3baca4862bd682)
+@@ -1,97 +0,0 @@
+-Index: src/Main.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import java.util.Scanner;\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        Scanner input = new Scanner(System.in);\r\n        while(true){\r\n            System.out.println(\"Press the corresponding number to see the visualization of the selected sorting algorithm. \\n1.Merge Sort\\n2.Bubble Sort\\n0.Exit\");\r\n            int selection = input.nextInt();\r\n            if(selection == 0){\r\n                break;\r\n            }\r\n            else if(selection == 1){\r\n                //Run merge sort\r\n            }\r\n            else if(selection == 2){\r\n                //Run bubble sort\r\n            }\r\n        }\r\n        System.out.println(\"Have a good day!\");\r\n    }\r\n\r\n    /* Prints the array */\r\n    public void printArray(int[] arr) {\r\n            int n = arr.length;\r\n            for (int i = 0; i < n; ++i) {\r\n                System.out.print(arr[i] + \" \");\r\n            }\r\n            System.out.println();\r\n    }\r\n    \r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/Main.java b/src/Main.java
+---- a/src/Main.java	(revision adea78551714dd9886628ed9af06c463042afc89)
+-+++ b/src/Main.java	(date 1683950142273)
+-@@ -1,6 +1,7 @@
+- import java.util.Scanner;
+- public class Main {
+-     public static void main(String[] args) {
+-+        MergeSort ms = new MergeSort();
+-         Scanner input = new Scanner(System.in);
+-         while(true){
+-             System.out.println("Press the corresponding number to see the visualization of the selected sorting algorithm. \n1.Merge Sort\n2.Bubble Sort\n0.Exit");
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e6b90509-7a35-4228-91b5-7da6b2d7f7dc\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2PikiaykVCZ8Zq6sBUl5Hxgf7eO\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e6b90509-7a35-4228-91b5-7da6b2d7f7dc\" name=\"Changes\" comment=\"\" />\r\n      <created>1683947419093</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1683947419093</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Update\">\r\n      <created>1683949558894</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683949558894</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Update\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Update\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision adea78551714dd9886628ed9af06c463042afc89)
+-+++ b/.idea/workspace.xml	(date 1683949855651)
+-@@ -4,15 +4,27 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="e6b90509-7a35-4228-91b5-7da6b2d7f7dc" name="Changes" comment="" />
+-+    <list default="true" id="e6b90509-7a35-4228-91b5-7da6b2d7f7dc" name="Changes" comment="test1">
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+    </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-     <option name="LAST_RESOLUTION" value="IGNORE" />
+-   </component>
+-+  <component name="FileTemplateManagerImpl">
+-+    <option name="RECENT_TEMPLATES">
+-+      <list>
+-+        <option value="Class" />
+-+      </list>
+-+    </option>
+-+  </component>
+-   <component name="Git.Settings">
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-   </component>
+-+  <component name="MarkdownSettingsMigration">
+-+    <option name="stateVersion" value="1" />
+-+  </component>
+-   <component name="ProjectId" id="2PikiaykVCZ8Zq6sBUl5Hxgf7eO" />
+-   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-   <component name="ProjectViewState">
+-@@ -34,12 +46,12 @@
+-       <option name="presentableId" value="Default" />
+-       <updated>1683947419093</updated>
+-     </task>
+--    <task id="LOCAL-00001" summary="Update">
+--      <created>1683949558894</created>
+-+    <task id="LOCAL-00001" summary="test1">
+-+      <created>1683948092915</created>
+-       <option name="number" value="00001" />
+-       <option name="presentableId" value="LOCAL-00001" />
+-       <option name="project" value="LOCAL" />
+--      <updated>1683949558894</updated>
+-+      <updated>1683948092915</updated>
+-     </task>
+-     <option name="localTasksCounter" value="2" />
+-     <servers />
+-@@ -55,7 +67,7 @@
+-                   <entry key="branch">
+-                     <value>
+-                       <list>
+--                        <option value="origin/master" />
+-+                        <option value="master" />
+-                       </list>
+-                     </value>
+-                   </entry>
+-@@ -68,11 +80,7 @@
+-     </option>
+-   </component>
+-   <component name="VcsManagerConfiguration">
+--    <MESSAGE value="Update" />
+--    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+--  </component>
+--  <component name="XSLT-Support.FileAssociations.UIState">
+--    <expand />
+--    <select />
+-+    <MESSAGE value="test1" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_8_49_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_8_49_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_8_49_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_5_12_2023_8_49_PM_[Changes]/shelved.patch	(revision 3012fb6658e404876debdd1a1e3baca4862bd682)
++++ /dev/null	(revision 3012fb6658e404876debdd1a1e3baca4862bd682)
+@@ -1,49 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e6b90509-7a35-4228-91b5-7da6b2d7f7dc\" name=\"Changes\" comment=\"test1\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/BubbleSort.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/MergeSort.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2PikiaykVCZ8Zq6sBUl5Hxgf7eO\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e6b90509-7a35-4228-91b5-7da6b2d7f7dc\" name=\"Changes\" comment=\"\" />\r\n      <created>1683947419093</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1683947419093</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test1\">\r\n      <created>1683948092915</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683948092915</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"test1\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"test1\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision b930763b5982b450008e682cd4888debfc02fc8a)
+-+++ b/.idea/workspace.xml	(date 1683949544862)
+-@@ -4,11 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="e6b90509-7a35-4228-91b5-7da6b2d7f7dc" name="Changes" comment="test1">
+--      <change afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--    </list>
+-+    <list default="true" id="e6b90509-7a35-4228-91b5-7da6b2d7f7dc" name="Changes" comment="Sorts implementation." />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -55,7 +51,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1683948092915</updated>
+-     </task>
+--    <option name="localTasksCounter" value="2" />
+-+    <task id="LOCAL-00002" summary="Sorts implementation.">
+-+      <created>1683949406903</created>
+-+      <option name="number" value="00002" />
+-+      <option name="presentableId" value="LOCAL-00002" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1683949406903</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="3" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -83,6 +86,7 @@
+-   </component>
+-   <component name="VcsManagerConfiguration">
+-     <MESSAGE value="test1" />
+--    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+-+    <MESSAGE value="Sorts implementation." />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Sorts implementation." />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"e6b90509-7a35-4228-91b5-7da6b2d7f7dc\" name=\"Changes\" comment=\"Added VisualizerAlgo Class.\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/VisualizerAlgo.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/VisualizerAlgo.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2PikiaykVCZ8Zq6sBUl5Hxgf7eO\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;ToolWindowMessages.ShowToolbar&quot;: &quot;false&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;\n  }\n}</component>\n  <component name=\"RunManager\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"SortingAlgoVisualizer\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"e6b90509-7a35-4228-91b5-7da6b2d7f7dc\" name=\"Changes\" comment=\"\" />\n      <created>1683947419093</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1683947419093</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Update\">\n      <created>1683949558894</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1683949558894</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Update\">\n      <created>1683949740172</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1683949740172</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Update\">\n      <created>1683950217169</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1683950217169</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Added VisualizerAlgo Class.\">\n      <created>1684037225815</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1684037225815</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Update\" />\n    <MESSAGE value=\"Added VisualizerAlgo Class.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added VisualizerAlgo Class.\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3012fb6658e404876debdd1a1e3baca4862bd682)
++++ b/.idea/workspace.xml	(date 1684372004906)
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e6b90509-7a35-4228-91b5-7da6b2d7f7dc" name="Changes" comment="Added VisualizerAlgo Class.">
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++    <list default="true" id="e6b90509-7a35-4228-91b5-7da6b2d7f7dc" name="Changes" comment="Added Labeling, dashes etc.">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/VisualizerAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisualizerAlgo.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -96,7 +93,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1684037225815</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Added Labeling, dashes etc.">
++      <created>1684286768529</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1684286768529</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -125,7 +129,8 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Update" />
+     <MESSAGE value="Added VisualizerAlgo Class." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Added VisualizerAlgo Class." />
++    <MESSAGE value="Added Labeling, dashes etc." />
++    <option name="LAST_COMMIT_MESSAGE" value="Added Labeling, dashes etc." />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />

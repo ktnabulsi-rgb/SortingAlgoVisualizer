@@ -1,7 +1,7 @@
 public class VisualizerAlgo {
-    private static int iterationCtr = 0;
+    private int iterationCtr = 0;
 
-    public static String[][] fillStars(String[][] gridArray) {
+    public String[][] fillStars(String[][] gridArray) {
         for (int r = 0; r < gridArray.length; r++) {
             for (int c = 0; c < gridArray[r].length; c++) {
                 if (gridArray[r][c] == null) {
@@ -15,7 +15,7 @@ public class VisualizerAlgo {
         return gridArray;
     }
 
-    public static int findLargestNumber(int[] array) {
+    public int findLargestNumber(int[] array) {
         if (array == null || array.length == 0) {
             throw new IllegalArgumentException("Array is empty or null.");
         }
@@ -29,7 +29,7 @@ public class VisualizerAlgo {
         return largestNumber;
     }
 
-    public static void print2DArrayGrid(String[][] array) {
+    public void print2DArrayGrid(String[][] array) {
         int columns = array[0].length;
         //long milliseconds = (long)0.75;
 
@@ -50,7 +50,7 @@ public class VisualizerAlgo {
         }
     }
 
-    public static int getMaxStringLength(String[][] array) {
+    public int getMaxStringLength(String[][] array) {
         int maxLength = 0;
         for (String[] row : array) {
             for (String element : row) {
@@ -62,8 +62,8 @@ public class VisualizerAlgo {
         return maxLength;
     }
 
-    public static void printVis(int[] array){
-        int largestNumberInArray = VisualizerAlgo.findLargestNumber(array);
+    public void printVis(int[] array){
+        int largestNumberInArray = findLargestNumber(array);
         String[][] gridArray = new String[largestNumberInArray][array.length];
         int dashLength = array.length * 2;
 
@@ -73,8 +73,8 @@ public class VisualizerAlgo {
                 gridArray[r][c] = "5"; //5 values mean space in this case
             }
         }
-        VisualizerAlgo.fillStars(gridArray);
-        VisualizerAlgo.print2DArrayGrid(gridArray);
+        fillStars(gridArray);
+        print2DArrayGrid(gridArray);
 
         iterationCtr++;
         //write dashes to text file
@@ -84,8 +84,28 @@ public class VisualizerAlgo {
         System.out.println();
     }
 
-    public static int getIterationCtr() {
+    public int getIterationCtr() {
         return iterationCtr;
+    }
+    public int[] makeArray(){
+        int length =(int) (Math.random() * (100 - 50 + 1)) + 50;
+        int rand;
+        int[] arr = new int[length];
+        for(int i = 0; i < arr.length; i++){
+            rand = (int) (Math.random() * (101));
+            arr[i] = rand;
+        }
+        return arr;
+    }
+
+    /* Prints the array */
+    public void printArray(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]);
+            if (i < arr.length - 1) {
+                System.out.print(", ");
+            }
+        }
     }
 }
 

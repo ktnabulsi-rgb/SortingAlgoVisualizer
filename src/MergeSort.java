@@ -1,5 +1,6 @@
 public class MergeSort {
     public void mergeSort(int[] array) {
+        VisualizerAlgo va = new VisualizerAlgo();
         if (array.length < 2) {
             return;
         }
@@ -13,7 +14,7 @@ public class MergeSort {
         mergeSort(left);
         mergeSort(right);
         merge(array, left, right);
-        VisualizerAlgo.printVis(array);
+        va.printVis(array);
     }
 
     private static void merge(int[] array, int[] left, int[] right) {
