@@ -1,5 +1,7 @@
+import java.util.Arrays;
+
 public class VisualizerAlgo {
-    private int iterationCtr = 0;
+    private static int iterationCtr = 0;
 
     public String[][] fillStars(String[][] gridArray) {
         for (int r = 0; r < gridArray.length; r++) {
@@ -87,6 +89,9 @@ public class VisualizerAlgo {
     public int getIterationCtr() {
         return iterationCtr;
     }
+    public void setIterationCtr(int num) {
+        iterationCtr = num;
+    }
     public int[] makeArray(){
         int length =(int) (Math.random() * (100 - 50 + 1)) + 50;
         int rand;
@@ -106,6 +111,11 @@ public class VisualizerAlgo {
                 System.out.print(", ");
             }
         }
+    }
+
+    public int[] copyArray(int[] array) {
+        int[] arr = Arrays.copyOf(array, array.length);
+        return arr;
     }
 }
 
