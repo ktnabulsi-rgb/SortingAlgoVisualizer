@@ -10,7 +10,6 @@ public class HeapSort {
      * The method does not return any value. Instead, it directly modifies the input array.
      * After the execution of the method, the input array will be sorted in ascending order.
      */
-
     public void heapSort(int[] array) {
         VisualizerAlgo va = new VisualizerAlgo();
         int n = array.length;
