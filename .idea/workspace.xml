@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b90509-7a35-4228-91b5-7da6b2d7f7dc" name="Changes" comment="Bug fixes.">
+    <list default="true" id="e6b90509-7a35-4228-91b5-7da6b2d7f7dc" name="Changes" comment="Fixed fatal input bug as well as implemented make new array.">
+      <change afterPath="$PROJECT_DIR$/src/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VisualizerAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisualizerAlgo.java" afterDir="false" />
@@ -102,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684625704639</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed fatal input bug as well as implemented make new array.">
+      <created>1684627182013</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684627182013</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +142,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Added VisualizerAlgo Class." />
     <MESSAGE value="Bug fixes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes." />
+    <MESSAGE value="Fixed fatal input bug as well as implemented make new array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed fatal input bug as well as implemented make new array." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

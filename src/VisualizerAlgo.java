@@ -117,6 +117,7 @@ public class VisualizerAlgo {
         int[] arr = Arrays.copyOf(array, array.length);
         return arr;
     }
+
 }
 
 
