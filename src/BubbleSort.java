@@ -1,4 +1,16 @@
 public class BubbleSort {
+
+    /**
+     * The bubbleSort method sorts an array of integers in ascending order using the Bubble Sort algorithm.
+     * The method also visualizes the sorting process by calling the printVis method from VisualizerAlgo class.
+     *
+     * @param arr the input integer array that needs to be sorted. It can be of any size.
+     *            Each element of the array represents an integer.
+     *
+     * The method does not return any value. Instead, it directly modifies the input array.
+     * After the execution of the method, the input array will be sorted in ascending order.
+     */
+
     public void bubbleSort(int[] arr) {
         VisualizerAlgo va = new VisualizerAlgo();
         int n = arr.length;

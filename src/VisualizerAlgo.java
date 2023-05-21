@@ -3,6 +3,13 @@ import java.util.Arrays;
 public class VisualizerAlgo {
     private static int iterationCtr = 0;
 
+
+    /**
+     * Fills a 2D string array with '*' characters in place of null elements, and spaces for non-null elements.
+     *
+     * @param gridArray the input 2D string array to be filled.
+     * @return the input array after being filled with '*' and space characters.
+     */
     public String[][] fillStars(String[][] gridArray) {
         for (int r = 0; r < gridArray.length; r++) {
             for (int c = 0; c < gridArray[r].length; c++) {
@@ -17,6 +24,13 @@ public class VisualizerAlgo {
         return gridArray;
     }
 
+    /**
+     * Finds the largest integer in an input array of integers.
+     *
+     * @param array the input integer array.
+     * @throws IllegalArgumentException if the input array is null or has zero length.
+     * @return the largest integer in the array.
+     */
     public int findLargestNumber(int[] array) {
         if (array == null || array.length == 0) {
             throw new IllegalArgumentException("Array is empty or null.");
@@ -31,6 +45,11 @@ public class VisualizerAlgo {
         return largestNumber;
     }
 
+    /**
+     * Prints a 2D string array in a grid format, with columns neatly aligned.
+     *
+     * @param array the input 2D string array to be printed.
+     */
     public void print2DArrayGrid(String[][] array) {
         int columns = array[0].length;
         //long milliseconds = (long)0.75;
@@ -52,6 +71,12 @@ public class VisualizerAlgo {
         }
     }
 
+    /**
+     * Finds the maximum string length in a 2D string array.
+     *
+     * @param array the input 2D string array.
+     * @return the maximum string length among all elements in the array.
+     */
     public int getMaxStringLength(String[][] array) {
         int maxLength = 0;
         for (String[] row : array) {
@@ -64,6 +89,11 @@ public class VisualizerAlgo {
         return maxLength;
     }
 
+    /**
+     * Prints a visual representation of an integer array, using '*' characters to represent the integers.
+     *
+     * @param array the input integer array to be visually represented.
+     */
     public void printVis(int[] array){
         int largestNumberInArray = findLargestNumber(array);
         String[][] gridArray = new String[largestNumberInArray][array.length];
@@ -92,6 +122,12 @@ public class VisualizerAlgo {
     public void setIterationCtr(int num) {
         iterationCtr = num;
     }
+
+    /**
+     * Creates and returns an integer array of random length (between 50 and 100), filled with random integers.
+     *
+     * @return the randomly generated integer array.
+     */
     public int[] makeArray(){
         int length =(int) (Math.random() * (100 - 50 + 1)) + 50;
         int rand;
@@ -103,7 +139,11 @@ public class VisualizerAlgo {
         return arr;
     }
 
-    /* Prints the array */
+    /**
+     * Prints an integer array as a comma-separated list.
+     *
+     * @param arr the integer array to be printed.
+     */
     public void printArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]);
@@ -113,6 +153,12 @@ public class VisualizerAlgo {
         }
     }
 
+    /**
+     * Creates and returns a copy of an integer array.
+     *
+     * @param array the integer array to be copied.
+     * @return the copy of the input integer array.
+     */
     public int[] copyArray(int[] array) {
         int[] arr = Arrays.copyOf(array, array.length);
         return arr;

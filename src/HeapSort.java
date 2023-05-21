@@ -1,4 +1,16 @@
 public class HeapSort {
+
+    /**
+     * The heapSort method sorts an array of integers in ascending order using the Heap Sort algorithm.
+     * The method also visualizes the sorting process by calling the printVis method from the VisualizerAlgo class.
+     *
+     * @param array the input integer array that needs to be sorted. It can be of any size.
+     *            Each element of the array represents an integer.
+     *
+     * The method does not return any value. Instead, it directly modifies the input array.
+     * After the execution of the method, the input array will be sorted in ascending order.
+     */
+
     public void heapSort(int[] array) {
         VisualizerAlgo va = new VisualizerAlgo();
         int n = array.length;
@@ -22,6 +34,18 @@ public class HeapSort {
         }
     }
 
+
+    /**
+     * The heapify method builds a max heap from the given array, starting from the index i.
+     * It is used by the heapSort method to ensure the array maintains the max heap property.
+     *
+     * @param array the input array that needs to be transformed into a max heap.
+     * @param n     the number of elements in the array.
+     * @param i     the index from where the heapification process needs to start.
+     *
+     * The method does not return any value. Instead, it directly modifies the input array.
+     * After the execution of the method, the subtree rooted at index i will be a max heap.
+     */
     private void heapify(int[] array, int n, int i) {
         int largest = i;  // Initialize largest as root
         int leftChild = 2 * i + 1;  // Left child

@@ -1,4 +1,3 @@
-import java.util.LinkedList;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -9,8 +8,11 @@ public class Main {
         SelectionSort ss = new SelectionSort();
         InsertionSort is = new InsertionSort();
         Scanner input = new Scanner(System.in);
+
         int[] arrUnmodified = va.makeArray();
+
         boolean consoleIsRunning = true;
+
         while(consoleIsRunning) {
             int[] arrModified = va.copyArray(arrUnmodified);
             System.out.println("Press the corresponding number to see the visualization of the selected sorting algorithm. \n1.Merge Sort\n2.Bubble Sort \n3.Heap Sort\n4.Selection Sort\n5.Insertion Sort\n6.Create a new array to sort\n0.Exit");
