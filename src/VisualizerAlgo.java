@@ -1,7 +1,10 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class VisualizerAlgo {
     private static int iterationCtr = 0;
+    Scanner input = new Scanner(System.in);
 
 
     /**
@@ -162,6 +165,39 @@ public class VisualizerAlgo {
     public int[] copyArray(int[] array) {
         int[] arr = Arrays.copyOf(array, array.length);
         return arr;
+    }
+
+    /**
+     * Creates and returns a custom integer array.
+     *
+     * @return custom array user made.
+     */
+    public int[] fillCustomArray(){
+        ArrayList<Integer> arraylist = new ArrayList<>();
+        int value;
+        String selection;
+        System.out.println("Enter values separated by ENTER \nPress S to stop");
+        while(true){
+            selection = input.next();
+            if(selection.equals("s") || selection.equals("S")){
+                break;
+            }
+            else{
+                try{
+                    value = Integer.parseInt(selection);
+                    arraylist.add(value);
+                }
+                catch (NumberFormatException e){
+                    System.out.println("Your value was invalid; may have contained a letter or symbol");
+                }
+            }
+        }
+        //Copys arraylist to array
+        int[] custom = new int[arraylist.size()];
+        for(int i = 0; i < arraylist.size(); i++){
+            custom[i] = arraylist.get(i);
+        }
+        return custom;
     }
 
 }

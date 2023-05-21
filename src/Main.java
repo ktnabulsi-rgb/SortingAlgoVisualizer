@@ -12,11 +12,18 @@ public class Main {
         int[] arrUnmodified = va.makeArray();
 
         boolean consoleIsRunning = true;
+        boolean custom = false;
 
         while(consoleIsRunning) {
             int[] arrModified = va.copyArray(arrUnmodified);
-            System.out.println("Press the corresponding number to see the visualization of the selected sorting algorithm. \n1.Merge Sort\n2.Bubble Sort \n3.Heap Sort\n4.Selection Sort\n5.Insertion Sort\n6.Create a new array to sort\n0.Exit");
-            System.out.println("Here is the randomly generated array that will be sorted: ");
+            System.out.println("----------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+            System.out.println("Press the corresponding number to see the visualization of the selected sorting algorithm. \n1.Merge Sort\n2.Bubble Sort \n3.Heap Sort\n4.Selection Sort\n5.Insertion Sort\n6.Create a new array to sort\n7.Make Custom Array\n0.Exit");
+            if(!custom){
+                System.out.println("Here is the randomly generated array that will be sorted: ");
+            }
+            else{
+                System.out.println("Here is your custom array that will be sorted: ");
+            }
             va.printArray(arrModified);
             System.out.println();
             int selection = input.nextInt();
@@ -50,7 +57,13 @@ public class Main {
             }
             else if(selection == 6) {
                 arrUnmodified = va.makeArray();
+                custom = false;
                 System.out.println("New Array Made Successfully.");
+            }
+            else if(selection == 7){
+                arrUnmodified = va.fillCustomArray();
+                custom = true;
+                System.out.println("Custom Array Made Successfully.");
             }
         }
         System.out.println("Have a good day!");
